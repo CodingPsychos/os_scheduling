@@ -1,0 +1,28 @@
+for this project, the required thing to run is a gcc compiler
+after installing,
+use the command
+gcc testbench.c
+
+after compiled,
+for linux execute with
+./a.out
+for windows execute with
+a
+
+this will produce the polar.dat file
+which is actually a csv file with 4 column vectors
+
+
+first column is the index and 
+next three colums are values of three processess which is required to plot
+
+take that csv and plot with whatever software the you have installed in your system
+it may be python or matlab
+
+but I have done it with gnuplot 
+for that
+
+run the command
+gnuplot -persist graph.plt
+
+
